@@ -1,0 +1,23 @@
+{
+  "name": "webextension-polyfill-global",
+  "version": "0.0.0",
+  "description": "Wrapper around Mozilla’s webextension-polyfill to make it available as a global even with a bundler",
+  "keywords": [
+    "register",
+    "global",
+    "webpack",
+    "parcel",
+    "web extension",
+    "webext"
+  ],
+  "repository": "fregante/webextension-polyfill-global",
+  "license": "MPL-2.0",
+  "author": "Federico Brigante <me@fregante.com> (https://fregante.com)",
+  "main": "index.js",
+  "scripts": {
+    "version": "bash ./bump-version.sh"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  }
+}
