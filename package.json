@@ -1,6 +1,6 @@
 {
   "name": "webextension-polyfill-global",
-  "version": "0.0.0",
+  "version": "0.10.0",
   "description": "Wrapper around Mozilla’s webextension-polyfill to make it available as a global even with a bundler",
   "keywords": [
     "register",
