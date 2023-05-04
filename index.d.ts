@@ -1,4 +1,5 @@
+import {Browser} from 'webextension-polyfill';
+
 declare global {
-	type Browser = import('webextension-polyfill').Browser;
 	const browser: Browser;
 }
