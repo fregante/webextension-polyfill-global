@@ -10,6 +10,13 @@ Mozilla’s `webextension-polyfill` [makes it difficult](https://github.com/mozi
 npm install webextension-polyfill-global
 ```
 
+or if you're a TypeScript user:
+
+```sh
+npm install webextension-polyfill-global
+npm install @types/webextension-polyfill -D
+```
+
 ## Usage
 
 Just this. Types will also be available globally.
